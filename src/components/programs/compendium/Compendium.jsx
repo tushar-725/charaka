@@ -8,7 +8,6 @@ import narrationImg from '../../../images/narrationImg.jpeg';
 import compendiumImg from '../../../images/compendiumImg.jpg';
 
 const bowlbyFont = "'Bowlby One SC', sans-serif";
-const yatraOneFont = "'Yatra One', system-ui";
 
 const Compendium = () => {
   return (

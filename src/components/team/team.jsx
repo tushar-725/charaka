@@ -4,7 +4,6 @@ import { Container, Typography, CssBaseline } from '@mui/material';
 import teamBanner from '../../images/teamBanner.jpg';
 import '../../App.css';
 const bowlbyFont = "'Bowlby One SC', sans-serif";
-const yatraOneFont = "'Yatra One', system-ui";
 
 const Team = () => {
   return (

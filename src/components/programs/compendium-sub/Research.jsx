@@ -6,7 +6,6 @@ import '../../../App.css';
 import researchImg from '../../../images/researchImg.jpeg';
 
 const bowlbyFont = "'Bowlby One SC', sans-serif";
-const yatraOneFont = "'Yatra One', system-ui";
 const merriweatherFont = "'Merriweather', serif";
 
 const Research = () => {
@@ -25,7 +24,7 @@ const Research = () => {
             <Box sx={{ display: 'flex', textAlign: 'left'}}>
                 <img
                 src={researchImg} // Replace with your image source
-                alt="Research Image"
+                alt=""
                 style={{ maxWidth: '100%', maxHeight: '100%' }}
                 />
             </Box>

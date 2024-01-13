@@ -10,7 +10,6 @@ import threadsIcon from '../../images/threads.png';
 import telegramIcon from '../../images/telegram.png';
 
 const bowlbyFont = "'Bowlby One SC', sans-serif";
-const yatraOneFont = "'Yatra One', system-ui";
 
 const Home = () => {
   return (
