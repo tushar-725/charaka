@@ -11,9 +11,10 @@ const merriweatherFont = "'Merriweather', serif";
 const Research = () => {
   return (
     <Box>
+        <Box sx={{ height: '56px', backgroundColor: '#8C8888'}} />
         <Container style={{fontFamily: merriweatherFont}}>
         {/* Heading */}
-        <Box sx={{ textAlign: 'center', marginTop: '6rem', marginBottom: '3rem' }}>
+        <Box sx={{ textAlign: 'center', marginTop: '3rem', marginBottom: '3rem' }}>
             <Typography variant="h3" sx={{ fontFamily: bowlbyFont}}><span style={{color: '#260251', textDecoration: 'underline'}}>Monthly</span> <span style={{color: '#DF6805', textDecoration: 'underline'}}>Narration</span></Typography>
         </Box>
 
@@ -83,12 +84,12 @@ const Research = () => {
                 </Typography>
             </Container>
         </Box>
-        <Box sx={{ display: 'flex', height: '120px', backgroundColor: '#000', color: '#FFF', textAlign: 'left'}} >
+        <Box sx={{ display: 'flex', backgroundColor: '#000', color: '#FFF', textAlign: 'left', padding: '2rem 0rem'}} >
             <Container sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
                 <Typography variant='h6' sx={{fontFamily: merriweatherFont , textDecoration: 'underline', fontWeight: 900, justifyContent: 'center'}}>
                 CELEBRATING  Crohn's and Colitis Awareness Week (December 1-7)
                 </Typography>
-                <Typography variant='h6' noWrap component={Link} to="https://archive.interconf.center/index.php/2709-4685/article/view/4974" target='_blank' sx={{ textDecoration: 'none', color: '#FFF' }}>
+                <Typography variant='h6' component={Link} to="https://archive.interconf.center/index.php/2709-4685/article/view/4974" target='_blank' sx={{ textDecoration: 'none', color: '#FFF' }}>
                 Tailoring treatment: a comprehensive review of precision medicine and biological therapies in inflammatory bowel disease
                 </Typography>
             </Container>

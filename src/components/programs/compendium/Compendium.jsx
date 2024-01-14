@@ -21,15 +21,14 @@ const Compendium = () => {
         alignItems: 'center',
         justifyContent: 'center',
         marginBottom: '2rem'}}>
-        <Container
+        <Box
             sx={{
             textAlign: 'center', // Adjust background color as needed
             color: '#000',
-            padding: '5rem',
             }}
         >
             <Typography variant="h2" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DF6805'}}>Compendium</Typography>
-        </Container>
+        </Box>
 
         {/* Brief description */}
     </Box>

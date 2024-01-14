@@ -11,9 +11,10 @@ const merriweatherFont = "'Merriweather', serif";
 const Research = () => {
   return (
     <Box>
+        <Box sx={{ height: '56px', backgroundColor: '#8C8888'}} />
         <Container style={{fontFamily: merriweatherFont}}>
         {/* Heading */}
-        <Box sx={{ textAlign: 'center', marginTop: '6rem', marginBottom: '3rem' }}>
+        <Box sx={{ textAlign: 'center', marginTop: '3rem', marginBottom: '3rem' }}>
             <Typography variant="h3" sx={{ fontFamily: bowlbyFont}}><span style={{color: '#260251', textDecoration: 'underline'}}>Research</span> <span style={{color: '#DF6805', textDecoration: 'underline'}}>101</span></Typography>
         </Box>
 

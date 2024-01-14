@@ -1,6 +1,6 @@
 // Blog.jsx
 import React from 'react';
-import { Container, Typography, CssBaseline } from '@mui/material';
+import { Container, Typography, CssBaseline, Box } from '@mui/material';
 import blogBanner from '../../images/blog2.jpg';
 import '../../App.css';
 const bowlbyFont = "'Bowlby One SC', sans-serif";
@@ -22,11 +22,11 @@ const Blog = () => {
         }}
       >
         <CssBaseline />
-        <Container>
+        <Box>
           <Typography variant='h1' component="div" sx={{fontFamily: bowlbyFont}}>
             Blogs...
           </Typography>
-        </Container>
+        </Box>
       </div>
       <Container style={{ marginTop: '40px'}}>
         <Typography variant="h4" gutterBottom sx={{fontFamily: bowlbyFont}}>

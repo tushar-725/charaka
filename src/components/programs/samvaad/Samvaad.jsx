@@ -17,15 +17,15 @@ const Samvaad = () => {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',}}>
-            <Container
+            <Box
                 sx={{
                 textAlign: 'center', // Adjust background color as needed
                 color: '#000',
-                padding: '5rem',
+                marginTop: '1.5rem'
                 }}
             >
                 <Typography variant="h2" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DA6CB9'}}>Samvaad - Pen Pal Program</Typography>
-            </Container>
+            </Box>
         </Box>
 
         {/* Second portion with image and content */}
