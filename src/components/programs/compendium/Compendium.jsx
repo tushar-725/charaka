@@ -27,7 +27,7 @@ const Compendium = () => {
             color: '#000',
             }}
         >
-            <Typography variant="h2" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DF6805'}}>Compendium</Typography>
+            <Typography variant="h2" fontSize="55px" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DF6805'}}>Compendium</Typography>
         </Box>
 
         {/* Brief description */}

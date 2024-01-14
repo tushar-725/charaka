@@ -21,6 +21,7 @@ const Vivaad = () => {
                 sx={{
                 textAlign: 'center', // Adjust background color as needed
                 color: '#000',
+                marginTop: '1rem'
                 }}
             >
                 <Typography variant="h2" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DF6805'}}>Vivaad - The Book Club</Typography>
