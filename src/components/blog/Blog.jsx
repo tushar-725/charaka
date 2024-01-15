@@ -23,7 +23,7 @@ const Blog = () => {
       >
         <CssBaseline />
         <Box>
-          <Typography variant='h1' component="div" sx={{fontFamily: bowlbyFont}}>
+          <Typography variant='h2' fontSize='70px' component="div" sx={{fontFamily: bowlbyFont}}>
             Blogs...
           </Typography>
         </Box>

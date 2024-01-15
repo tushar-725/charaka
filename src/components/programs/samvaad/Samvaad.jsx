@@ -24,7 +24,7 @@ const Samvaad = () => {
                 marginTop: '1.5rem'
                 }}
             >
-                <Typography variant="h2" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DA6CB9'}}>Samvaad - Pen Pal Program</Typography>
+                <Typography variant="h2" fontSize='50px' sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DA6CB9'}}>Samvaad - Pen Pal Program</Typography>
             </Box>
         </Box>
 

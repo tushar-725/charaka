@@ -21,10 +21,10 @@ const Vivaad = () => {
                 sx={{
                 textAlign: 'center', // Adjust background color as needed
                 color: '#000',
-                marginTop: '1rem'
+                marginTop: '1.2rem'
                 }}
             >
-                <Typography variant="h2" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DF6805'}}>Vivaad - The Book Club</Typography>
+                <Typography variant="h2" fontSize= '50px' sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DF6805'}}>Vivaad - The Book Club</Typography>
             </Box>
         </Box>
 

@@ -21,13 +21,13 @@ const Compendium = () => {
         alignItems: 'center',
         justifyContent: 'center',
         marginBottom: '2rem'}}>
-        <Box
+        <Box 
             sx={{
             textAlign: 'center', // Adjust background color as needed
             color: '#000',
             }}
         >
-            <Typography variant="h2" fontSize="55px" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DF6805'}}>Compendium</Typography>
+            <Typography variant="h2" fontSize="52px" sx={{fontFamily: bowlbyFont, color: '#FFF', textShadow: '6px 6px #DF6805'}}>Compendium</Typography>
         </Box>
 
         {/* Brief description */}
@@ -36,20 +36,20 @@ const Compendium = () => {
         {/* Cards section */}
         <Box>
             <Container>
-                <Box sx={{ textAlign: 'center', marginBottom: '3rem' }}>
+                <Box sx={{ textAlign: 'left', marginBottom: '3rem' }}>
                     <Typography variant="body1" sx={{fontWeight: 600}}>
                     Compendium brings to you, our initiatives to make research more mainstream. We have training projects, SWGs (small working groups), 
                     FFA (Free-for-all) communities, and a lot more in planning to help medical students pursue research along side their Medical Education.
                     </Typography>
                 </Box>
-                <Grid container spacing={3}>
+                <Grid container spacing={3} marginBottom='2rem'>
                     {/* Card 1 */}
                     <Grid item xs={12} md={6}>
                     <Card sx={{ boxShadow: '4px 8px 8px rgba(0,0,0,0.1)', borderRadius: '20px', border: '1px solid #ccc', transition: 'transform 0.3s ease-in-out' }}>
                         <CardActionArea component={Link} to="/research-101">
                         <Grid container spacing={2}>
                             {/* Image on the left */}
-                            <Grid item xs={5}>
+                            <Grid item xs={12} md={6}>
                             <CardMedia
                                 component="img"
                                 height="100%"
@@ -58,7 +58,7 @@ const Compendium = () => {
                             />
                             </Grid>
                             {/* Heading and description on the right */}
-                            <Grid item xs={7}>
+                            <Grid item xs={12} md={6}>
                             <CardContent>
                                 <Typography variant="h5" component="div">
                                 <Link to="/research-101" style={{ textDecoration: 'underline', color: '#260251', fontWeight: 600 }}>
@@ -81,7 +81,7 @@ const Compendium = () => {
                         <CardActionArea component={Link} to="/monthly-narration">
                         <Grid container spacing={2}>
                             {/* Image on the left */}
-                            <Grid item xs={5}>
+                            <Grid item xs={12} md={6}>
                             <CardMedia
                                 component="img"
                                 height="100%"
@@ -90,7 +90,7 @@ const Compendium = () => {
                             />
                             </Grid>
                             {/* Heading and description on the right */}
-                            <Grid item xs={7}>
+                            <Grid item xs={12} md={6}>
                             <CardContent>
                                 <Typography variant="h5" component="div">
                                 <Link to="/monthly-narration" style={{ textDecoration: 'underline', color: '#260251', fontWeight: 600 }}>
