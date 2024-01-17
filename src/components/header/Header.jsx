@@ -79,7 +79,7 @@ const Header = () => {
           alt="Your logo."
           src={logo}
           />
-        <Typography variant="h6" component={Link} to="/charaka" sx={{ ml: 2,
+        <Typography variant="h6" component={Link} to="/" sx={{ ml: 2,
           display: { xs: 'none', md: 'flex' },
           fontFamily: 'monospace',
           fontWeight: 1000,
