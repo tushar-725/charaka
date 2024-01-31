@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf7e8fa9.css",
-    "main.js": "/static/js/main.deaa9d90.js",
-    "static/js/787.79397c31.chunk.js": "/static/js/787.79397c31.chunk.js",
-    "static/media/teamBanner.jpg": "/static/media/teamBanner.b15d78eb02a462e96ffa.jpg",
-    "static/media/GIF.gif": "/static/media/GIF.aa3229cb46b75104b072.gif",
-    "static/media/vivaadBanner.jpg": "/static/media/vivaadBanner.c058bfb9daaa484ed4c1.jpg",
-    "static/media/insta.png": "/static/media/insta.469cb83ec463191dffdf.png",
-    "static/media/compendiumImg.jpg": "/static/media/compendiumImg.f9f011087d88c2d62c3c.jpg",
-    "static/media/Logo.png": "/static/media/Logo.90aa7655ed91e507d931.png",
-    "static/media/blog2.jpg": "/static/media/blog2.7f186f67dd6a92882cf7.jpg",
-    "static/media/samvaadBanner4.jpg": "/static/media/samvaadBanner4.b1d620d4f30bafc19cc0.jpg",
-    "static/media/twitter.png": "/static/media/twitter.c9d69acfaf852c0ddb71.png",
-    "static/media/samvaad.jpeg": "/static/media/samvaad.d594b3c1682ebf06f1c8.jpeg",
-    "static/media/vivaadImg.jpeg": "/static/media/vivaadImg.548c429b9ff0373ea917.jpeg",
-    "static/media/threads.png": "/static/media/threads.d74f92e73fc57c631faa.png",
-    "static/media/narrationImg.jpeg": "/static/media/narrationImg.d17b2a186083e9dd60e4.jpeg",
-    "static/media/researchImg.jpeg": "/static/media/researchImg.fd640acbed27430afdee.jpeg",
-    "index.html": "/index.html",
-    "main.bf7e8fa9.css.map": "/static/css/main.bf7e8fa9.css.map",
-    "main.deaa9d90.js.map": "/static/js/main.deaa9d90.js.map",
-    "787.79397c31.chunk.js.map": "/static/js/787.79397c31.chunk.js.map"
+    "main.css": "/charaka/static/css/main.bf7e8fa9.css",
+    "main.js": "/charaka/static/js/main.583e60e5.js",
+    "static/js/787.79397c31.chunk.js": "/charaka/static/js/787.79397c31.chunk.js",
+    "static/media/teamBanner.jpg": "/charaka/static/media/teamBanner.b15d78eb02a462e96ffa.jpg",
+    "static/media/GIF.gif": "/charaka/static/media/GIF.aa3229cb46b75104b072.gif",
+    "static/media/vivaadBanner.jpg": "/charaka/static/media/vivaadBanner.c058bfb9daaa484ed4c1.jpg",
+    "static/media/insta.png": "/charaka/static/media/insta.469cb83ec463191dffdf.png",
+    "static/media/compendiumImg.jpg": "/charaka/static/media/compendiumImg.f9f011087d88c2d62c3c.jpg",
+    "static/media/Logo.png": "/charaka/static/media/Logo.90aa7655ed91e507d931.png",
+    "static/media/blog2.jpg": "/charaka/static/media/blog2.7f186f67dd6a92882cf7.jpg",
+    "static/media/samvaadBanner4.jpg": "/charaka/static/media/samvaadBanner4.b1d620d4f30bafc19cc0.jpg",
+    "static/media/twitter.png": "/charaka/static/media/twitter.c9d69acfaf852c0ddb71.png",
+    "static/media/samvaad.jpeg": "/charaka/static/media/samvaad.d594b3c1682ebf06f1c8.jpeg",
+    "static/media/vivaadImg.jpeg": "/charaka/static/media/vivaadImg.548c429b9ff0373ea917.jpeg",
+    "static/media/threads.png": "/charaka/static/media/threads.d74f92e73fc57c631faa.png",
+    "static/media/narrationImg.jpeg": "/charaka/static/media/narrationImg.d17b2a186083e9dd60e4.jpeg",
+    "static/media/researchImg.jpeg": "/charaka/static/media/researchImg.fd640acbed27430afdee.jpeg",
+    "index.html": "/charaka/index.html",
+    "main.bf7e8fa9.css.map": "/charaka/static/css/main.bf7e8fa9.css.map",
+    "main.583e60e5.js.map": "/charaka/static/js/main.583e60e5.js.map",
+    "787.79397c31.chunk.js.map": "/charaka/static/js/787.79397c31.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf7e8fa9.css",
-    "static/js/main.deaa9d90.js"
+    "static/js/main.583e60e5.js"
   ]
 }
