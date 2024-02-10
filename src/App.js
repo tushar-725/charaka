@@ -19,13 +19,13 @@ function App() {
       <div className="App">
         <Routes>  
           <Route path='/tcp' element={ <Home /> } />
-          <Route path='/tcp/blog' element={ <Blog /> } />
-          <Route path='/tcp/vivaad' element={ <Vivaad /> } />
-          <Route path='/tcp/samvaad' element={ <Samvaad />} />
-          <Route path='/tcp/compendium' element={ <Compendium />} />
-          <Route path='/tcp/research-101' element={ <Research /> } />
-          <Route path='/tcp/monthly-narration' element={ <Narration /> } />
-          <Route path='/tcp/our-team' element={ <Team /> } />
+          <Route path='blog' element={ <Blog /> } />
+          <Route path='/vivaad' element={ <Vivaad /> } />
+          <Route path='/samvaad' element={ <Samvaad />} />
+          <Route path='/compendium' element={ <Compendium />} />
+          <Route path='/research-101' element={ <Research /> } />
+          <Route path='/monthly-narration' element={ <Narration /> } />
+          <Route path='/our-team' element={ <Team /> } />
         </Routes>
       </div>
     </BrowserRouter>
