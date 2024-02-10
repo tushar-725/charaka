@@ -58,7 +58,7 @@ const Header = () => {
   }, []);
 
   return (
-    <AppBar sx={{ backgroundColor: scrolling ? 'rgba(255, 255, 255, 0.3)' : 'rgba(255, 255, 255, 0.3)' }} style={{transition: 'transform 0.3s ease-in-out'}}>
+    <AppBar sx={{ backgroundColor: scrolling ? 'rgba(255, 255, 255, 0.5)' : 'rgba(255, 255, 255, 0.5)' }} style={{transition: 'transform 0.3s ease-in-out'}}>
       <Toolbar sx={{transition: 'transform 0.3s ease-in-out'}}>
         <Box sx={{ display: { xs: 'block', md: 'none'} }}>
           <IconButton
