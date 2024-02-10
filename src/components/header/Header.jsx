@@ -79,7 +79,7 @@ const Header = () => {
           alt="Your logo."
           src={logo}
           />
-        <Typography variant="h6" component={Link} to="/" sx={{ ml: 2,
+        <Typography variant="h6" component={Link} to="/tcp" sx={{ ml: 2,
           display: { xs: 'none', md: 'flex' },
           fontFamily: 'monospace',
           fontWeight: 1000,
@@ -97,7 +97,7 @@ const Header = () => {
            fonstSize: '10',
            transition: 'transform 0.3s ease-in'
            }}>
-          <Button color="inherit" component={Link} to="/" sx={{fontWeight: 'inherit',
+          <Button color="inherit" component={Link} to="/tcp" sx={{fontWeight: 'inherit',
             fontSize: 'inherit',
           }}>
             Home
@@ -174,7 +174,7 @@ const Header = () => {
         </Box>
         <Box>
           <List sx={{ color: '#fff' }}>
-            <ListItem button component={Link} to="/" onClick={handleDrawerClose}>
+            <ListItem button component={Link} to="/tcp" onClick={handleDrawerClose}>
               <ListItemText primary="Home" />
             </ListItem>
             <ListItem button component={Link} to="https://aavaranbythecharakaproject.myshopify.com/" target='_blank' onClick={handleDrawerClose}>
