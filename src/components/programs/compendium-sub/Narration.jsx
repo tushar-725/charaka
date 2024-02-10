@@ -11,7 +11,7 @@ const merriweatherFont = "'Merriweather', serif";
 const Research = () => {
   return (
     <Box>
-        <Box sx={{ height: '56px', backgroundColor: '#8C8888'}} />
+        <Box sx={{ height: '64px', backgroundColor: '#8C8888'}} />
         <Container style={{fontFamily: merriweatherFont}}>
         {/* Heading */}
         <Box sx={{ textAlign: 'center', marginTop: '3rem', marginBottom: '3rem' }}>
