@@ -19,7 +19,7 @@ function App() {
       <div className="App">
         <Routes>  
           <Route path='/tcp' element={ <Home /> } />
-          <Route path='blog' element={ <Blog /> } />
+          <Route path='/blog' element={ <Blog /> } />
           <Route path='/vivaad' element={ <Vivaad /> } />
           <Route path='/samvaad' element={ <Samvaad />} />
           <Route path='/compendium' element={ <Compendium />} />

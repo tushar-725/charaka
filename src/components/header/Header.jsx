@@ -58,7 +58,7 @@ const Header = () => {
   }, []);
 
   return (
-    <AppBar sx={{ backgroundColor: scrolling ? 'black' : 'rgba(255, 255, 255, 0.3)' }} style={{transition: 'transform 0.3s ease-in-out'}}>
+    <AppBar sx={{ backgroundColor: scrolling ? 'rgba(255, 255, 255, 0.3)' : 'rgba(255, 255, 255, 0.3)' }} style={{transition: 'transform 0.3s ease-in-out'}}>
       <Toolbar sx={{transition: 'transform 0.3s ease-in-out'}}>
         <Box sx={{ display: { xs: 'block', md: 'none'} }}>
           <IconButton
@@ -84,7 +84,7 @@ const Header = () => {
           fontFamily: 'monospace',
           fontWeight: 1000,
           letterSpacing: '.3rem',
-          color: scrolling ? 'white' : '#000',
+          color: scrolling ? '#000' : '#000',
           transition: 'transform 0.3s ease-in-out',
           textDecoration: 'none',}}>
           www.thecharakaproject.in
@@ -92,7 +92,7 @@ const Header = () => {
         <Box sx={{ display: { xs: 'none', md: 'flex' },
            justifyContent: 'flex-end', 
            flexGrow: 1, 
-           color: scrolling ? 'white' : '#000',
+           color: scrolling ? '#000' : '#000',
            fontWeight: '600',
            fonstSize: '10',
            transition: 'transform 0.3s ease-in'
